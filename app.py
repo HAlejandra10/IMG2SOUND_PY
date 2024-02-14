@@ -19,3 +19,5 @@ def convert_to_sound(image):
         return True
     
     except  Exception as bug:
+        print("The error while executing the code\n", bug)
+        return
