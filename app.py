@@ -21,3 +21,7 @@ def convert_to_sound(image):
     except  Exception as bug:
         print("The error while executing the code\n", bug)
         return
+
+if __name__ == "__main__":
+    convert_to_sound("EllenQuote.png")
+    input()
